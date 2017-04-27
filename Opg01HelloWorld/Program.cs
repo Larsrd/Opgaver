@@ -10,6 +10,8 @@ namespace Opg01HelloWorld
     {
         static void Main()
         {
+            DateTime start;
+            DateTime end;
             Console.Write("Indtast navn: ");
             string navn = Console.ReadLine();
             string dummy = "dummystring";
@@ -19,14 +21,19 @@ namespace Opg01HelloWorld
             navn = navn.ToUpper();
             Console.WriteLine("Velkommen {0}", navn);
             Console.WriteLine("Tryk 'Y' for at fortsætte");
+            start = DateTime.Now;
             while (true)
             {
                 ConsoleKeyInfo ki = Console.ReadKey(true);
+                //string kistr = ki.Key.ToString;
+                //if ( != ConsoleKey.Y)
                 if (ki.Key != ConsoleKey.Y)
-                    Console.WriteLine("du trykkede på {0}", ki.Key);
+                Console.WriteLine("du trykkede på {0}", ki.Key);
                 else
                     break;
             }
+            end = DateTime.Now;
+            Console.WriteLine("Det tog {0} at trykke rigtigt!", end-start);
             Console.ReadKey();
         }
     }

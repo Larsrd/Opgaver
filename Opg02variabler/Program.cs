@@ -12,11 +12,11 @@ namespace Opg02variabler
         {
             int heltal = 10;
             int heltalopr = heltal;
-            string intops = "heltal";
+            string intops = "";
             heltal++; intops=intops+"+1";
             heltal--; intops = intops + "-1";
             heltal += 20; intops = intops + "+20";
-            Console.WriteLine("heltal {0} "+ heltal);
+            Console.WriteLine("heltal {0} {1} = {2}", heltalopr,intops, heltal);
             
 
             double kommatal = 12.5;

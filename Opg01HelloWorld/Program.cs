@@ -14,8 +14,8 @@ namespace Opg01HelloWorld
             DateTime end;
             Console.Write("Indtast navn: ");
             string navn = Console.ReadLine();
-            string dummy = "dummystring";
-            string dummy2 = "dummystring2";
+            //string dummy = "dummystring";
+            //string dummy2 = "dummystring2";
             string efternavn = "Damgaard";
             navn = navn + " " + efternavn;
             navn = navn.ToUpper();

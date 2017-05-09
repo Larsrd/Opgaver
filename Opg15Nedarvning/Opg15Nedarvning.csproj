@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{389C02A7-2F4A-4F6E-81FC-D4570D80BD36}</ProjectGuid>
+    <ProjectGuid>{193DCC1E-FB05-4240-8749-5CBCD06E8F20}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Opg13Properties2</RootNamespace>
-    <AssemblyName>Opg13Properties2</AssemblyName>
+    <RootNamespace>Opg15Nedarvning</RootNamespace>
+    <AssemblyName>Opg15Nedarvning</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

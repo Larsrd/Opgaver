@@ -48,11 +48,12 @@ namespace Opg13Properties2
             return Fornavn + " "+Efternavn;
         }
         //fuldt navn som egenskab
-        private string fuldtNavnProp;
+
+        //private string fuldtNavnProp;
 
         public string FuldtNavnProp
         {
-            get { return Fornavn +" " + Efternavn; }
+            get { return Fornavn + " " + Efternavn; }
             //set { fuldtNavnProp = value; }
         }
 
